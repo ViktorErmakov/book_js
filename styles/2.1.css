@@ -4,9 +4,11 @@ body{
 h1{
 	font-size: 32pt;
 	text-align: center;
+	font-family: Verdana, Geneva, cursive, sans-serif;
 }
+h1 span{font-weight: normal;}
 p{
-	font-size: 14pt;
+	font-size: 14pt !important;
 	text-align: justify;
 }
 .picture{
@@ -15,3 +17,5 @@ p{
 p.greeting{
 	font-size: 24pt;
 }
+.picture img{width: 67%;}
+address{text-align: right;}
