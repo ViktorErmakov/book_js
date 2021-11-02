@@ -1,21 +1,46 @@
 body{
 	font-family: Arial;
 }
-h1{
-	font-size: 32pt;
+
+header {
 	text-align: center;
-	font-family: Verdana, Geneva, cursive, sans-serif;
 }
-h1 span{font-weight: normal;}
-p{
-	font-size: 14pt !important;
+
+main {
 	text-align: justify;
 }
-.picture{
-	text-align: center;
+
+footer {
+	text-align: right;
 }
+
+h1 {
+	font-size: 32pt;
+	font-family: Verdana, Geneva, cursive, sans-serif;
+}
+
+h1 span{
+	font-weight: normal;
+}
+
+p {
+	font-size: 14pt !important;
+}
+
 p.greeting{
 	font-size: 24pt;
 }
-.picture img{width: 67%;}
-address{text-align: right;}
+
+.bigger {
+	font-size: 16pt;
+}
+
+.advertising {
+	margin-left: 30pt;
+}
+
+.advertising div {
+	font-size: 12pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
