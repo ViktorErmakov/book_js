@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Заказ столиков:: Йокогама: суши-бар</title>
+	<title>Заказ еды на вынос:: Йокогама: суши-бар</title>
 	<link href="../styles/2.1.css" rel="stylesheet" href="text/css">
 </head>
 
@@ -23,33 +23,30 @@
 		<div><a href="sushi.html">Суши</a></div>
 		<div><a href="rolls.html">Роллы</a></div>
         <div><a href="pricelist.html">Прайс-лист</a></div>
-		<div>Заказ столиков</div>
-		<div><a href="takeaway.html">Заказ еды на вынос</a></div>
+		<div><a href="order.html">Заказ столиков</a></div>
+        <div>Заказ еды на вынос</div>
 	</nav>
 
 	<main>
-		<h2>Заказ столиков</h2>
+		<h2>Заказ еды на вынос</h2>
 		<form action="mailto:79091602201@yandex.ru" method="post" enctype="text/plain">
             <p>
-                <label for="name">Как к Вам обращаться?</label><br>
-                <input type="text" name="name" id="name" required>
+                <label for="dishes">Что желаете заказать?</label><br>
+                <select name="dishes" id="dishes" size="6" multiple>
+                    <optgroup label="Сашими">
+                        <option value="unagi">Унаги</option>
+                        <option value="hamachi">Хамачи</option>
+                    </optgroup>
+                    <optgroup label="Суши">
+                        <option value="chuka">Чукка</option>
+                        <option value="maguro">Магуро</option>
+                        <option value="tobiko">Тобико</option>
+                    </optgroup>
+                </select>
             </p>
             <p>
                 <label for="phone">По какому телефону Вам перезвонить?</label><br>
                 <input type="text" name="phone" id="phone" required>
-            </p>
-            <p>
-                <label for="time">На какое время желаете заказать столик?</label><br>
-                <input type="time" name="time" id="time" required>
-            </p>
-            <p>
-                <label for="cnt"> На сколько человек заказывается столик?</label><br>
-                <input type="radio" name="cnt" id="cnt" value="1">1 &nbsp;&nbsp;&nbsp;
-                <input type="radio" name="cnt" value="2">2 &nbsp;&nbsp;&nbsp;
-                <input type="radio" name="cnt" value="more">3 и более
-            </p>
-            <p>
-                <input type="checkbox" name="children" value="*"> Среди клиентов будут дети
             </p>
             <p>
                 <input type="submit">
