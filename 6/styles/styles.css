@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+body.noscroll {
+    overflow: hidden;
+}
+
 .gallery-item img{
     width: 100%;
 }
