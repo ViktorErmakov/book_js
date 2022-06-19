@@ -9,3 +9,6 @@ body.noscroll {
 .gallery-item img{
     width: 100%;
 }
+a[target=gallery] {
+    font-size: 16pt;
+}

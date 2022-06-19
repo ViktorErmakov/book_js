@@ -74,6 +74,18 @@ table.pricelist tfoot td {
 	font-style: italic;
 }
 
+table.catalog tr:first-child td {
+	border-top: none;
+}
+
+table.catalog tr:last-child td {
+	border-bottom: none;
+}
+
+table.catalog td p:first-of-type::first-letter {
+	font-size: 24pt;
+}
+
 nav {
 	float: left;
 	width: 150px;
