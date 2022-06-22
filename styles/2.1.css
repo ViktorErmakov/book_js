@@ -1,3 +1,27 @@
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(../fonts/Caviar_Dreams_Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(../fonts/CaviarDreams_Italic.ttf);
+	font-weight: italic;
+}
+
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(../fonts/CaviarDreams_BoldItalic.ttf);
+	font-weight: italic;
+	font-weight: bold;
+}
+
 body{
 	font-family: Arial;
 }
@@ -101,11 +125,16 @@ nav div {
 	margin-bottom: 5px;
 }
 
-table [colspan="2"] {
+table h3{
+	font-family: "Caviar Dreams";
+	font-size: 20pt;
+}
+
+table.pricelist [colspan="2"] {
 	text-align: center;
 }
 
-table tr td:last-child:not(:only-child){
+table.pricelist tr td:last-child:not(:only-child){
 	background-color: lightgrey;
 	border: none
 }
