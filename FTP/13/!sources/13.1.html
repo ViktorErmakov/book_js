@@ -3,6 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Книга</title>
+        <style type="text/css">
+            body {counter-reset: ch1;}
+            h1 {counter-reset: ch2;}
+            h1::before {
+                counter-increment: ch1;
+                content: counter(ch1) ". ";
+            }
+            h2::before {
+                counter-increment: ch2;
+                content: counter(ch1) "." counter(ch2) ". ";
+            }
+        </style>
     </head>
     <body>
         <h1>HTML</h1>

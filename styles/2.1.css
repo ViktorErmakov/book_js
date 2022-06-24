@@ -41,6 +41,7 @@ footer {
 h1 {
 	font-size: 32pt;
 	font-family: Verdana, Geneva, cursive, sans-serif;
+	text-shadow: 3pt 3pt 5pt darkgray;
 }
 
 h1 span{
@@ -137,4 +138,18 @@ table.pricelist [colspan="2"] {
 table.pricelist tr td:last-child:not(:only-child){
 	background-color: lightgrey;
 	border: none
+}
+
+table.catalog h3 {
+	font-variant: small-caps;
+	text-transform: capitalize;
+	letter-spacing: 2pt;
+}
+
+table.catalog p::first-letter {
+	vertical-align: top;
+}
+
+table.catalog h3::after {
+	content: ":";
 }
